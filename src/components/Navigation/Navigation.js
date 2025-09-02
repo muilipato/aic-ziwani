@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-
+import "./Navigation.css"
 const Navigation = ({ currentPage, setCurrentPage }) => {
-  const [mobileOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const items = ["Home", "About", "Services", "Ministries", "Gallery", "Blog", "Contact"];
   
   return(
@@ -29,19 +29,19 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
         </div>
 
         <div className="menu-mobile-toggle">
-          <button aria-label="Toggle Menu" onClick={() => setMobileOpen((v) => !v)}>
-             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+          <button aria-label="Toggle Menu" onClick={() => setMobileMenuOpen((v) => !v)}>
+             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
 
-      {mobileOpen && (
+      {mobileMenuOpen && (
         <div className="menu-mobile container">
           {items.map((item) => (
             <button
               key={item}
               className={`menu-item ${currentPage === item.toLowerCase() ? "active" : ""}`}
-              onClick={() => { setCurrentPage(item.toLowerCase()); setMobileOpen(false); }}
+              onClick={() => { setCurrentPage(item.toLowerCase()); setMobileMenuOpen(false); }}
             >
               {item}
             </button>
