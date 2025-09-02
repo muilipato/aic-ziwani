@@ -4,9 +4,9 @@ import EventsPopup from './components/EventsPopup/EventsPopup';
 import Footer from './components/Footer';
 
 import HomePage from "./pages/Homepage/HomePage";
+
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showEventPopup, setShowEventPopup] = useState(false);
 
   // Simulate upcoming events
@@ -60,8 +60,7 @@ const App = () => {
       <Navigation 
       currentPage={currentPage}
       setCurrentPage={setCurrentPage}
-      mobileMenuOpen={mobileMenuOpen}
-      setMobileMenuOpen={setMobileMenuOpen}/>
+      />
       {renderCurrentPage()}
       <EventsPopup 
       showEventPopup={showEventPopup}
