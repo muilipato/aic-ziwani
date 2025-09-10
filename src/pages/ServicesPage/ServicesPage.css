@@ -1,0 +1,67 @@
+.svc-head {
+    margin-bottom: 3rem;
+}
+
+.svc-grid {
+    margin-bottom: 2rem;
+}
+
+.svc-card.border-left {
+    border-left: 4px solid var(--primary-red);
+}
+
+.space {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.svc-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: .75rem;
+}
+
+.svc-row .right {
+    text-align: right;
+}
+
+.svc-row .time {
+    color: var(--primary-red);
+    font-weight: 800;
+}
+
+
+.special {
+    background: #fef2f2;
+    margin: 2rem 0;
+    border-radius: .75rem;
+}
+
+.special-grid {
+    margin-top: 1rem;
+}
+
+.accent {
+    color: var(--primary-red);
+    font-weight: 700;
+}
+
+
+.expect {
+    margin-top: 2rem;
+}
+
+.expect-grid {
+    gap: 1rem;
+}
+
+.expect .pad {
+    background: var(--panel);
+    border-radius: .75rem;
+    padding: 1rem;
+    box-shadow: 0 8px 20px rgba(17, 24, 39, 0.06);
+}
