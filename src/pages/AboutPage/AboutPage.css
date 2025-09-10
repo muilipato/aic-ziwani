@@ -1,0 +1,51 @@
+.about-head {
+    margin-bottom: 3rem;
+}
+
+.mission-vision .mv-card {
+    border-top: 4px solid var(--primary-red);
+}
+
+.mv-title {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-bottom: 1rem;
+}
+
+.mv-icon {
+    color: var(--primary-red);
+}
+
+
+.history {
+    background: #f9fafb;
+    margin: 3rem 0;
+}
+
+.history h2 {
+    margin-bottom: 1rem;
+}
+
+.prose p {
+    color: var(--muted);
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+
+
+.values {
+    margin-top: 2rem;
+}
+
+.values h2 {
+    margin-bottom: 2rem;
+}
+
+.value-grid {
+    gap: 1.5rem;
+}
+
+.value-item .small {
+    font-size: .95rem;
+}
