@@ -20,11 +20,11 @@
     gap: .75rem;
 }
 
-.logo-circle {
+.logo-circle img {
     width: 64px;
     height: 64px;
     border-radius: 999px;
-    background: var(--primary-red);
+    
     color: #fff;
     display: grid;
     place-items: center;
@@ -40,7 +40,7 @@
 
 .logo-text p {
     font-size: .85rem;
-    color: #6b7280;
+    color: var(--text);
     margin: 0;
 }
 
