@@ -14,6 +14,13 @@
   font-size: 2.5rem;
   margin-top: 2rem;
 }
+.page-header p {
+  font-size: 1.25rem;
+  color: var(--muted);
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
 
 .ministries-grid {
   display: grid;
