@@ -11,7 +11,7 @@ const Footer = ({ setCurrentPage }) => {
           <div>
             <h3>Contact Info</h3>
             <div className="footer-list">
-              <p><MapPin size={16} /> Ziwani Estate, Juja</p>
+              <p><MapPin size={16} /> Ziwani Estate, Nairobi</p>
               <p><Phone size={16} /> +254 700 000 000</p>
               <p><Mail size={16} /> info@aicziwani.org</p>
             </div>
@@ -28,9 +28,10 @@ const Footer = ({ setCurrentPage }) => {
           <div>
             <h3>Service Times</h3>
             <div className="footer-list">
-              <p>Sunday: 9:00 AM & 11:00 AM</p>
-              <p>Wednesday: 7:00 PM</p>
-              <p>Friday: 6:00 PM</p>
+              <p>Sunday: 8:00 AM - 10:00 AM</p>
+              <p>Sunday: 10:00 AM - 12:00 PM</p>
+              <p>Sunday: 12:00 PM - 2:00 PM</p>
+              <p>Friday Prayers: 6:00 PM - 7:00 PM</p>
             </div>
           </div>
           <div>
@@ -38,7 +39,7 @@ const Footer = ({ setCurrentPage }) => {
             <p className="muted">Stay connected through our social media channels for updates and inspiration.</p>
           </div>
         </div>
-        <div className="footer-bottom">© {year} African Inland Church Ziwani. All rights reserved.</div>
+        <div className="footer-bottom">© {year} AIC Ziwani. All rights reserved.</div>
       </div>
     </footer>
   );
