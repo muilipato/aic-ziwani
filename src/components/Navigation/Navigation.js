@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import "./Navigation.css"
+import logo from "../../images/aic_logo.png"
+
 const Navigation = ({ currentPage, setCurrentPage }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const items = ["Home", "About", "Services", "Ministries", "Gallery", "Blog", "Contact"];
@@ -9,7 +11,7 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
     <nav className="navigation">
       <div className="nav-container container">
         <div className="logo">
-          <div className="logo-circle">AIC</div>
+          <div className="logo-circle"><img src={logo} alt="AIC Ziwani Logo" /></div>
           <div className="logo-text">
             <h1>AIC Ziwani</h1>
             <p>Africa Inland Church</p>
