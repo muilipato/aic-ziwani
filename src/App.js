@@ -56,7 +56,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div>
       <Navigation 
       currentPage={currentPage}
       setCurrentPage={setCurrentPage}
