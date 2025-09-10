@@ -44,6 +44,7 @@
 .announcements .cards .announcement {
     border-left: 4px solid var(--primary-red);
     border-radius: .75rem;
+    background: #f9eeee;
 }
 
 .announcements .small {
