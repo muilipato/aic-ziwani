@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from './components/Navigation/Navigation';
 import EventsPopup from './components/EventsPopup/EventsPopup';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 import HomePage from "./pages/Homepage/HomePage";
 
