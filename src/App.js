@@ -4,6 +4,7 @@ import EventsPopup from './components/EventsPopup/EventsPopup';
 import Footer from './components/Footer/Footer';
 
 import HomePage from "./pages/Homepage/HomePage";
+import AboutPage from './pages/AboutPage/AboutPage';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
@@ -46,9 +47,9 @@ const App = () => {
     switch (currentPage) {
       case 'home':
         return <HomePage />;
-      /*case 'about':
+      case 'about':
         return <AboutPage />;
-      case 'services':
+      /*case 'services':
         return <ServicesPage />; */
       default:
         return <HomePage />;
