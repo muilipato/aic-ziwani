@@ -1,5 +1,6 @@
 import React from "react";
 import { Heart, BookOpen, Users, Calendar } from "lucide-react";
+import "./AboutPage.css";
 
 const AboutPage = () => {
   return (
