@@ -37,7 +37,7 @@ const AboutPage = () => {
         {/* Values */}
         <div className="values">
           <h2 className="center">Our Core Values</h2>
-          <div className="grid-3 value-grid">
+          <div className="grid-4 value-grid">
             <div className="value-item center">
               <div className="icon-circle"><BookOpen /></div>
               <h3>Biblical Truth</h3>

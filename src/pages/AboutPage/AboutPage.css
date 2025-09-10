@@ -17,7 +17,6 @@
     color: var(--primary-red);
 }
 
-
 .history {
     background: #f9fafb;
     margin: 3rem 0;
@@ -33,7 +32,6 @@
     margin-bottom: 1rem;
 }
 
-
 .values {
     margin-top: 2rem;
 }
@@ -44,6 +42,26 @@
 
 .value-grid {
     gap: 1.5rem;
+}
+
+/* Add 4-column grid for values section */
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
 }
 
 .value-item .small {
