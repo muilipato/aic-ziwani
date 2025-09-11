@@ -2,6 +2,11 @@
     margin-bottom: 3rem;
 }
 
+.about-lead {
+    color: var(--text);
+    margin-top: 1rem;
+}
+
 .mission-vision .mv-card {
     border-top: 4px solid var(--primary-red);
 }

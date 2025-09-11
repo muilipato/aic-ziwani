@@ -10,7 +10,7 @@ const AboutPage = () => {
         <div className="center about-head">
           <h1>About AIC Ziwani</h1>
           <div className="badge-line" />
-          <p className="lead">We are a community of believers committed to knowing Christ, growing in faith, and serving others with the love of Jesus.</p>
+          <p className="about-lead">We are a community of believers committed to knowing Christ, growing in faith, and serving others with the love of Jesus.</p>
         </div>
         {/* Mission & Vision */}
         <div className="grid-2 mission-vision">
