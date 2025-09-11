@@ -29,7 +29,7 @@ const AboutPage = () => {
         <div className="history card pad">
           <h2 className="center">Our History</h2>
           <div className="prose">
-            <p>African Inland Church Ziwani was established in 1995 as part of the broader African Inland Church movement in Kenya. What started as a small gathering of families in Ziwani Estate has grown into a vibrant community of believers from diverse backgrounds.</p>
+            <p>African Inland Church Ziwani was established in 1955 as part of the broader Africa Inland Church movement in Kenya. What started as a small gathering of a choir and a few people in Ziwani Estate has grown into a vibrant community of believers from diverse backgrounds.</p>
             <p>Over the years, we have been blessed to witness countless lives transformed through the Gospel, families restored, and young people discovering their calling in Christ. Our church has been actively involved in community development, education support, and poverty alleviation programs.</p>
             <p>Today, we continue to build on this foundation, reaching out to new families moving into Ziwani and surrounding areas, while maintaining our commitment to biblical teaching, authentic worship, and practical Christianity.</p>
           </div>
