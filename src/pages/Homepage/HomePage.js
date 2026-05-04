@@ -38,7 +38,7 @@ const HomePage = () => {
             <div className="card pad center">
               <div className="icon-circle"><MapPin /></div>
               <h3>Location</h3>
-              <p className="muted">Ziwani Estate<br />Juja, Kiambu County<br />Kenya</p>
+              <p className="muted">Ziwani Estate<br />Starehe, Nairobi County<br />Kenya</p>
             </div>
             <div className="card pad center">
               <div className="icon-circle"><Phone /></div>
