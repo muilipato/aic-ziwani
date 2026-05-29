@@ -1,5 +1,5 @@
 import React from "react";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import "./Footer.css";
 
 const Footer = ({ setCurrentPage }) => {
@@ -37,6 +37,28 @@ const Footer = ({ setCurrentPage }) => {
           <div>
             <h3>Follow Us</h3>
             <p className="muted">Stay connected through our social media channels for updates and inspiration.</p>
+            <div className="footer-socials">
+              <a
+                className="footer-social-link"
+                href="https://www.facebook.com/AICZiwaniKenya"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit AIC Ziwani on Facebook"
+              >
+                <Facebook size={18} />
+                <span>Facebook</span>
+              </a>
+              <a
+                className="footer-social-link"
+                href="https://www.instagram.com/aicziwanike/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit AIC Ziwani on Instagram"
+              >
+                <Instagram size={18} />
+                <span>Instagram</span>
+              </a>
+            </div>
           </div>
         </div>
         <div className="footer-bottom">© {year} AIC Ziwani. All rights reserved.</div>
