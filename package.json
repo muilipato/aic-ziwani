@@ -1,7 +1,7 @@
 {
   "name": "aic-ziwani",
   "version": "0.1.0",
-  "homepage": "https://aicziwani.org",
+  "homepage" : "https://muilipato.github.io/aic-ziwani/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
