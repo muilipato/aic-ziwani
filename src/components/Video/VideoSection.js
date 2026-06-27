@@ -1,14 +1,6 @@
 export default function VideoSection() {
     return (
       <section className="video-section">
-        <div className="gallery-header">
-          <h2>Take a Look at How Our 70 Year Celebrations Went</h2>
-  
-          <p>
-            A glimpse into the celebration, worship and moments shared
-            during our 70 year anniversary.
-          </p>
-        </div>
   
         <div className="video-wrapper">
           <iframe
