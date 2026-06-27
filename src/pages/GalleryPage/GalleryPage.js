@@ -19,9 +19,13 @@ const latestPhotos = [
 ];
 
 const celebrationPhotos = [
-  "https://YOUR_BUCKET.s3.amazonaws.com/70years1.jpg",
-  "https://YOUR_BUCKET.s3.amazonaws.com/70years2.jpg",
-  "https://YOUR_BUCKET.s3.amazonaws.com/70years3.jpg",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/564600352_1132252275720258_3806535768729890121_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGfQ9aELD9ri6BgBMaDVCDxpBZ7hUTtZ1mkFnuFRO1nWbnGanU4wFiMEe4r3Vue-usCIIYR5PtOx0NkSs-sFN05&_nc_ohc=-DU7Yu9Wzc8Q7kNvwGl1vGq&_nc_oc=AdrHQuTw2iGOpn4oPA8AdUrJ00Ps7NpX9wzqrLgiaz7hq5PB5Sa3TzxrGoBhenDw92M&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=aAzX5_97XM9ZGDawMFiuIQ&_nc_ss=7b2a8&oh=00_Af-nRZUd7dfCQrGJZbWwBmTxqlvEIfWA9ATCHu6GwPESlQ&oe=6A45B4CD",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/558645005_1131839542428198_6615475553719460683_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEzRqGG3rz9Zoh8C962eOIM7TbOcslS3XrtNs5yyVLdeo4H0pAQSdaw0CZIt70tS3wMlwkYrgWFHi_6SKl_2Ai6&_nc_ohc=gy9i09QZFrIQ7kNvwEm8eVl&_nc_oc=AdqbIWr2nGFPekCrDafYK7QdbA7wdQXUnbtrnjNnOxAPnuAISZ06Zagdz5mHqk9ACss&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=TlOCaHb2xWzKQrAU32kmAg&_nc_ss=7b2a8&oh=00_Af-oPg2hGzlodu-8TylhDu_PiSWtITKXopf-spmYBzUoZw&oe=6A45D61E",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/560672481_1132252439053575_7470162039076173215_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHEAMojccUlJfgwdJQKlQiT69LD7aZBnIXr0sPtpkGcheOpuWgGS93UmOuHwHjOr6nH2MidJTTf2MWCQ9GifA0F&_nc_ohc=zr29wHES5bgQ7kNvwHn0nvU&_nc_oc=AdqIBBYB9X-co6c9PXCJDXjPNLHI_uurKJjINeoGIbI5dSFdsY35z8TFYvWcWVZS_Fk&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=NYS6pE68nizOn9im6eJC2w&_nc_ss=7b2a8&oh=00_Af9YBEZhQBdFgApYMPPUuJtSWeFVW_219rGi1izzksVzYg&oe=6A45E2A0",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/559363559_1131839595761526_7817711856643320401_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGlozuwwK8nCBj30-AKSe47nqeLzO3b5Qiep4vM7dvlCGDlcJq-VYmELBjYRu4TDPLhbgaETz6lo-oIAfwV6zwQ&_nc_ohc=sp9u7x9zDaoQ7kNvwEeoxmF&_nc_oc=Adp2XIGmyNR0VOvn25mhOpKIueTs5YJGtpX1TmchZUFjQDgpYUUlK1Nx8_Fytf-wu_s&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=uYp6ffLAcoWccrY8foUehQ&_nc_ss=7b2a8&oh=00_Af9Nlu0m26JpZH5odp8qmY2yi8bHBzdogA5EEfLzhgBb8A&oe=6A45DAB6",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/558645009_1131841489094670_6640050434249337465_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeER8sa2USKkuzthAEVZ_54dxGN8RMdIalPEY3xEx0hqUye9hdPBPtgSIihpDF9d_Jz_iBof8lkKjq8cq0BJNWqD&_nc_ohc=puA5FG8mongQ7kNvwEhYmCu&_nc_oc=Ado8gV694yRL9Z5DVgcmMfuSVCq4q2LdazZBJdKnqYUujI9t6TODbEjXiaCINKyMCAk&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=nxJrk9c0-vGbcV5UiPCdEw&_nc_ss=7b2a8&oh=00_Af-vGuA4cHpVluK0HtfR4YFq7b0kQQgVU-f1vw4bzTx-bQ&oe=6A45D474",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/558865251_1132242115721274_5163037583207753802_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHs3DZz4GCZcMA8bshYbF1gD92umIKBvisP3a6YgoG-K9mv9vXvcm3wligtSijntRKAjfPVp2YAAUzC04SpbPYK&_nc_ohc=nRy4kdCxPs4Q7kNvwEUdKWA&_nc_oc=AdpUZnvegpzJ-eCbZTFukh3fEDXN8qRfOnKKK_zOosa0FrUQlGPNkztKoPznv-BuIGY&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=yyRCoeOxzzTBRn-6FGDmFw&_nc_ss=7b2a8&oh=00_Af_uCzuJwUr9A4lJHkvYXePEAM8Fq0gKP_cxr6awYPYKGg&oe=6A45DBA5",
+  "https://scontent.fnbo18-1.fna.fbcdn.net/v/t39.30808-6/565134572_1132242245721261_8212017664708755825_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGM9GNCziEqwCAgnuuSRNRYEy93hQBlx4ITL3eFAGXHgm1LbJ6aBa8YXwxBsBGXmmOCf0kmbrhAeFxDL-1f69Mn&_nc_ohc=h9GbJLSdL3MQ7kNvwFZrBjI&_nc_oc=AdpKZJMOHgAsq3tgrJmwfXlO8ktgoVNyMtJhZIMOihiY2uK20TH5yXttQo3QwMjKs9s&_nc_zt=23&_nc_ht=scontent.fnbo18-1.fna&_nc_gid=pTEjFgNk_GiNN8QGN-Bg3A&_nc_ss=7b2a8&oh=00_Af_Uwa022J6G2sGo10IAaHMoiYK6NmD537sj4TxmzXLAxw&oe=6A45D247"
 ];
 
 const generalGallery = [
@@ -69,7 +73,7 @@ export default function GalleryPage() {
       />
 
       <VideoSection />
-      
+
       <GallerySection
         title="Life at AIC Ziwani"
         subtitle="Snapshots from church life and ministry."
